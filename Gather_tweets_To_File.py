@@ -13,7 +13,7 @@ class sentimentanalyze():
 
     def sent_process(self):
         #gathered()
-        consumerKey = "8mJXNmRuDyka7r1K0fZkE3mqw"
+        consumerKey = ""
         consumerSecret = ""
         accessToken = ""
         accessTokenSecret = ""
