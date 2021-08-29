@@ -14,9 +14,9 @@ class sentimentanalyze():
     def sent_process(self):
         #gathered()
         consumerKey = "8mJXNmRuDyka7r1K0fZkE3mqw"
-        consumerSecret = "TKO8JMbfpheWyNyNgs7FsNQpuJNBiZHBk8KMXkRn1lcfOmNh1p"
-        accessToken = "1148024709746847744-GWvXY1V3T6FoU9iwm3OenKooh9IjAd"
-        accessTokenSecret = "RsPAb6NvlNAki7PIG7jW1m4lsUTn3KUqoiTMdzG7Tfn2f"
+        consumerSecret = ""
+        accessToken = ""
+        accessTokenSecret = ""
         auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
         auth.set_access_token(accessToken, accessTokenSecret)
         api = tweepy.API(auth)
